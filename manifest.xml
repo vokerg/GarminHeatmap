@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application
+        id="6f7f4ed603d845b58d67261e0ce9f647"
+        type="datafield"
+        name="@Strings.AppName"
+        entry="GarminHeatmapApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="3.2.0">
+        <iq:products>
+            <iq:product id="fenix7" />
+        </iq:products>
+        <iq:permissions />
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>
