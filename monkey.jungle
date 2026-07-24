@@ -1,0 +1,8 @@
+project.manifest = manifest.xml
+
+base.sourcePath = source
+base.resourcePath = resources
+base.excludeAnnotations = test
+
+fenix7.sourcePath = $(base.sourcePath)
+fenix7.resourcePath = $(base.resourcePath)
